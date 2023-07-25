@@ -1,30 +1,21 @@
+
 export const generalData = {
-  name: "John Doe",
-  avatar: "https://github.com/ibelick.png",
-  jobTitle: "Senior Front-End Developer",
-  website: "https://www.julienthibeaut.xyz",
+  name: "Shariq Waseem",
+  avatar: "/public/me.webp",
+  jobTitle: "Front-End Developer",
+  website: "https://www.linkedin.com/in/shariq-waseem-6451831a2/",
   about:
-    "Hey there! I'm John, a senior front-end developer with 10 years of experience in web development.",
+    `Hi! I'm Shariq, a front-end developer with ${new Date().getFullYear() - 2020} years of experience in web and mobile development. I specialize in creating hybrid mobile apps using React Native and websites in React.js & Next.js.`,
   contacts: [
     {
       label: "Email",
-      value: "john.doe@gmail.com",
-      href: "mailto:john.doe@gmail.com",
-    },
-    {
-      label: "Twitter",
-      value: "ibelick",
-      href: "https://twitter.com/ibelick",
+      value: "shariqwaseem41@gmail.com",
+      href: "mailto:shariqwaseem41@gmail.com",
     },
     {
       label: "Github",
-      value: "ibelick",
-      href: "https://github.com/ibelick",
-    },
-    {
-      label: "Read.CV",
-      value: "ibelick",
-      href: "https://read.cv/ibelick",
+      value: "shariqwaseem",
+      href: "https://github.com/shariqwaseem",
     },
   ],
 };
