@@ -3,6 +3,7 @@ import ThemeSwitch from "@/components/theme-switch";
 import {generalData} from "@/data/general";
 import {contentData} from "@/data/content";
 import type {Content} from "@/data/content";
+import LinkifyText from "@/components/LinkifyText";
 
 type ContentProps = Content;
 
@@ -16,15 +17,21 @@ const Content: React.FC<ContentProps> = ({title, items}) => {
 						<div className="flex" key={index}>
 							{item.date && (
 								<div className="mr-8 max-w-[100px] w-full text-slate-400 dark:text-slate-400">
-									{item.date}
+									<LinkifyText textWithLink={item.date} />
 								</div>
 							)}
 							<div className="flex flex-col flex-1">
-								<h4>{item.title}</h4>
+								<h4>
+									<LinkifyText textWithLink={item.title} />
+								</h4>
 								<p className="text-slate-600 dark:text-gray-400">
 									{item.subTitle}
 								</p>
-								{item.description ? item.description : null}
+								{item.description ? (
+									<LinkifyText
+										textWithLink={item.description}
+									/>
+								) : null}
 							</div>
 						</div>
 					);
@@ -81,7 +88,7 @@ export default function Home() {
 					return <Content {...content} key={index} />;
 				})}
 				<section className="my-14 text-sm">
-					<h3 className="mb-6 text-slate-900 font-semibold">
+					<h3 className="mb-6 text-slate-900 dark:text-slate-100  font-semibold">
 						Contact
 					</h3>
 					<div className="flex flex-col gap-6">
