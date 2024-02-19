@@ -67,7 +67,7 @@ export const contentData = [
 				subTitle: "FAST NUCES, Islamabad",
 				date: "2016 - 2020",
 				description:
-					"Majored in Web & Mobile development as well as in Data Mining and Blockchain. [Degree verification link](www.nu.edu.pk/dv?id=16i-0257).",
+					"Majored in Web & Mobile development as well as in Data Mining and Blockchain. [Degree verification link](www.nu.edu.pk/verification?id=16i-0257).",
 			},
 		],
 	},
