@@ -1,0 +1,74 @@
+Shariq Waseem Ph: +92 321 5848006  | Email: shariqwaseem41@gmail.com | Web: www.shariqwaseem.dev 
+LinkedIn: Shariq Waseem  
+About 
+Full Stack Software Engineer with 5+ years of experience delivering high-quality, scalable ap-
+plications across web and mobile platforms. Skilled in React.js, React Native, Next.js, and Nest.js 
+with proven success at Foxtons UK, Olo Space, and Gamecheck. Experienced in agile teams, API 
+design, cloud services, and performance optimization. 
+Technical Skills 
+I. Frontend: React.js, React Native, Next.js, Expo, Redux, Tailwind, Webﬂow, RTL 
+II. Backend: Nest.js, Node.js, Express.js, Firebase, AWS Lambda, GraphQL, Ethers.js 
+III. Databases & Search: MongoDB, MySQL, Firebase, Algolia, Typesense 
+IV. DevOps & Tools: Git, GitLab CI/CD, Jira, Notion, Slack, Socket.io, Stripe, Twilio 
+V. Languages: JavaScript (ES6+), TypeScript, Python 
+Education 
+I. FAST NUCES, Islamabad — BSc Computer Science (2016–2020) 
+II. Focus: Mobile Development, Web Development, Data Science, Blockchain 
+III. Final Year Project: BillMan — OCR-powered bill manager using YOLO & Tesseract 
+IV. St. Mary’s Academy, Rawalpindi — A Levels & O Levels (2009–2015) 
+Work Experience 
+I. Full Stack Engineer — Gamecheck, Gibraltar (Remote) | Oct 2024 – Present 
+A. Built scalable web and mobile applications with React, Next.js v15, Nest.js, MongoDB. 
+B. Designed and integrated REST APIs with responsive UIs. 
+C. Led agile sprints and cross-functional collaboration. 
+D. Achieved GTmetrix score >85 on slow 3G / old iPhone hardware; optimized Lighthouse 
+& PageSpeed Insights scores to near-perfect. 
+E. Used React Native performance monitor to minimize memory footprint and ensure 
+smooth operation on older devices. 
+II. Contract React Native Developer — Tattoo Masters, Helsinki (Remote) | Dec 2024 – 
+Present 
+A. Developed a social app connecting users with tattoo artists worldwide. 
+B. Implemented chat, geolocation ﬁlters, image compression, background tasks. 
+Tech: React Native (Expo), Firebase, Typesense, MongoDB. 
+III. Contract Mobile Software Developer — Olo Space, Los Angeles (Remote) | Jan 2023 – 
+Present 
+Page  of 1 2
+A. Maintained and enhanced the Olo Meditation App. 
+B. Built animations, minimalist UI, integrated AWS and Firebase analytics. 
+C. Designed deployment workﬂows and added new features. 
+D. Monitored runtime with React Native performance tools to minimize memory use and 
+keep smooth UX on low-end hardware. 
+IV. Senior Software Developer I — Creative Chaos (Foxtons UK project), Karachi (Remote) | 
+Jun 2022 – Oct 2024 
+A. Delivered portals for landlords, tenants, and buyers using React.js and Next.js. 
+B. Worked in a distributed team of 30+ with GitLab CI/CD pipelines. 
+C. Scaled systems for high user trafﬁc with reliable uptime. 
+D. Delivered near-perfect SEO and performance scores (Lighthouse, PageSpeed Insights). 
+V. React Native / React.js Developer — WEMTECH, Islamabad | Jul 2020 – May 2022 
+A. Built iOS/Android apps with React Native and web apps with React.js. 
+B. Developed scalable UI components and optimized performance. 
+VI. Android Intern — Nexsys Lab, FAST NUCES, Islamabad | Jun 2019 – Jul 2019 
+Projects 
+Key Projects: 
+I. Gamecheck Platform (2024–Present): Full-stack features using React, Next.js v15,Nest.js, 
+MongoDB. Achieved GTmetrix score >85 on slow 3G/old iPhone; Lighthouse & PageSpeed 
+scores near-perfect. 
+II. Tattoo Masters App (2024–Present): Social app with chat, geolocation ﬁlters, image com-
+pression, background tasks. 
+III. Olo Wellbeing App (2023–Present): Meditation app with custom animations and cloud ana-
+lytics. Actively monitored performance to minimize memory footprint for low-end devices. 
+IV. Foxtons Portal (2022–2024): Next.js property portal for landlords, tenants, and buyers with 
+CI/CD pipelines. Delivered near-perfect SEO and performance metrics. 
+V. Paktec Electric (2021): E-commerce site with Algolia search, Firebase backend, and full SEO 
+integration. Optimized for top Lighthouse and PageSpeed scores. 
+Additional Projects (Selected): 
+I. Bellona Social App (2021): Podcast + networking app for women in South Africa, with pay-
+ments and moderation. 
+II. JACY Blockchain App (2021): WalletConnect + Uniswap SDK integration for token swaps. 
+III. Eclipse Salon (2020): Marketplace app with video chat, payments, and notiﬁcations. 
+IV. Loyal Homes (2020): Companion real estate app with maps and Stripe integration. 
+V. BillMan FYP (2020): Smart bill manager with OCR using YOLO and Tesseract. 
+Certiﬁcations 
+I. HackerRank – Front End Developer (React) 
+II. Coursera – Advanced React Programming
+Page  of 2 2

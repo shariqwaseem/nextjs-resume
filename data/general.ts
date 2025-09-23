@@ -2,10 +2,10 @@
 export const generalData = {
   name: "Shariq Waseem",
   avatar: "/public/me.webp",
-  jobTitle: "Mobile & Web Front-end Developer",
-  website: "https://www.linkedin.com/in/shariq-waseem-6451831a2/",
+  jobTitle: "Full Stack Software Engineer",
+  website: "https://www.shariqwaseem.dev/",
   about:
-    `Hi! I'm Shariq, a front-end developer with ${new Date().getFullYear() - 2020} years of experience in web and mobile development. I specialize in creating hybrid mobile apps using React Native and websites in React.js & Next.js.`,
+    `Full Stack Software Engineer with ${new Date().getFullYear() - 2020}+ years of experience delivering high-quality, scalable applications across web and mobile. Skilled in React.js, React Native, Next.js, and Nest.js with proven success at Foxtons UK, Olo Space, and Gamecheck. Experienced in agile teams, API design, cloud services, and performance optimization.`,
   contacts: [
     {
       label: "Email",
@@ -19,7 +19,7 @@ export const generalData = {
     },
     {
       label: "LinkedIn",
-      value: "shariq-waseem-6451831a2",
+      value: "Shariq Waseem",
       href: "https://www.linkedin.com/in/shariq-waseem-6451831a2",
     },
   ],
