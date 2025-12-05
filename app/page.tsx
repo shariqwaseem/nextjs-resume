@@ -228,7 +228,7 @@ export default function Home() {
           </div>
         </section>
         {contentData.map((content, index) => {
-          let variant: "sky" | "rose" | "amber" | "emerald" = "sky";
+          let variant: "sky" | "rose" | "amber" | "emerald" | "indigo" = "sky";
           if (content.title === "Work Experience") variant = "rose";
           if (content.title === "Projects") variant = "amber";
           if (content.title === "Education") variant = "emerald";
