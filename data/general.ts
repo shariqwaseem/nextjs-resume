@@ -1,11 +1,12 @@
-
 export const generalData = {
   name: "Shariq Waseem",
   avatar: "/public/me.webp",
   jobTitle: "Full Stack Software Engineer",
   website: "https://www.shariqwaseem.dev/",
-  about:
-    `Full Stack Software Engineer with ${new Date().getFullYear() - 2020}+ years of experience delivering high-quality, scalable applications across web and mobile. Skilled in React.js, React Native, Next.js, and Nest.js with proven success at Foxtons UK, Olo Space, and Gamecheck. Experienced in agile teams, API design, cloud services, and performance optimization.`,
+  about: [
+    `I've spent the last ${new Date().getFullYear() - 2020}+ years building scalable web and mobile apps, working with companies like Foxtons UK, Olo Space, and Gamecheck. My stack of choice usually involves front-end frameworks and libraries like React Native, React, Next.js but I'm also comfortable with backend technologies like Nest.js and Node.js. I can fit anywhere in the JS/TS ecosystem.`,
+    `I'm obsessed about performance and and efficient user expereiences. I write clean code that other humans can actually read, and lately, I've been deep down the AI rabbit hole, using tools like Gemini, Cursor, and Claude to build faster and smarter workflows.`,
+  ],
   contacts: [
     {
       label: "Email",

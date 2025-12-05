@@ -9,14 +9,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: `${generalData.name} - ${generalData.jobTitle}`,
-  description: generalData.about,
+  description: Array.isArray(generalData.about)
+    ? generalData.about.join(" ")
+    : generalData.about,
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "",
     siteName: `${generalData.name} - ${generalData.jobTitle}`,
     title: `${generalData.name} - ${generalData.jobTitle}`,
-    description: generalData.about,
+    description: Array.isArray(generalData.about)
+      ? generalData.about.join(" ")
+      : generalData.about,
     images: [
       {
         url: "",
