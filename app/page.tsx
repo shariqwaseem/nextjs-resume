@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import ThemeSwitch from "@/components/theme-switch";
 import { generalData } from "@/data/general";
 import { contentData } from "@/data/content";
@@ -88,6 +88,8 @@ const Content: React.FC<ContentProps> = ({ title, items, variant = "sky" }) => {
   );
 };
 
+import ProfileImage from "@/components/ProfileImage";
+
 export default function Home() {
   return (
     <>
@@ -96,13 +98,7 @@ export default function Home() {
           <div className="relative mb-6">
             <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900/20 rounded-full blur-2xl transform scale-150 opacity-50"></div>
             <div className="relative p-1 rounded-full bg-gradient-to-tr from-sky-400 to-blue-500 shadow-xl overflow-hidden">
-              <Image
-                alt="Author"
-                src="/me.webp"
-                width={120}
-                height={120}
-                className="rounded-full object-cover border-4 border-white dark:border-slate-950 aspect-square"
-              />
+              <ProfileImage alt="Author" src="/me.webp" />
             </div>
           </div>
 
