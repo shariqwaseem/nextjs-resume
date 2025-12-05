@@ -12,7 +12,7 @@ export const contentData = [
       },
       {
         title:
-          "Contract Mobile Software Developer — [Olo Space](https://olo.app), Los Angeles (Remote)",
+          "Contract Mobile Software Developer — [Olo Space](https://olo.app), Finland (Remote)",
         subTitle: "React Native, AWS, Firebase",
         date: "Jan 2023 – Present",
         description:

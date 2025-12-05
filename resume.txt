@@ -30,7 +30,7 @@ Present
 A. Developed a social app connecting users with tattoo artists worldwide. 
 B. Implemented chat, geolocation ﬁlters, image compression, background tasks. 
 Tech: React Native (Expo), Firebase, Typesense, MongoDB. 
-III. Contract Mobile Software Developer — Olo Space, Los Angeles (Remote) | Jan 2023 – 
+III. Contract Mobile Software Developer — Olo Space, Finland (Remote) | Jan 2023 – 
 Present 
 Page  of 1 2
 A. Maintained and enhanced the Olo Meditation App. 
