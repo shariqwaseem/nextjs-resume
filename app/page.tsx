@@ -6,6 +6,14 @@ import { generalData } from "@/data/general";
 
 const featuredWork = [
   {
+    title: "Paktec Electric",
+    context: "E-commerce platform · 2021",
+    description:
+      "Built a full-stack, revenue-generating e-commerce platform with Typesense-powered search and a Firebase backend, handling VPS setup, Docker deployment and DevOps on Hetzner. Reached 50k monthly unique visitors with full SEO integration and top Lighthouse and PageSpeed scores.",
+    technologies: "React.js, Next.js, Typesense, Firebase, Docker, VPS",
+    links: [{ label: "Website", href: "https://paktec.pk" }],
+  },
+  {
     title: "Adhan App",
     context: "Native iOS project · 2026",
     description:

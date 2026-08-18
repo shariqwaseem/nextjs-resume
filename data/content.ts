@@ -129,7 +129,7 @@ export const contentData = [
         subTitle: "React.js, Next.js, Typesense, Firebase, Docker, VPS",
         date: "2021",
         description:
-          "Built a full-stack, revenue-generating e-commerce platform with Typesense-powered search and a Firebase backend; handled VPS setup, Docker deployment, and DevOps on Hetzner. Implemented full SEO integration, achieved top Lighthouse and PageSpeed scores, and reached 50k monthly unique visitors. [Live Store](https://paktec.pk)",
+          "Built a full-stack, revenue-generating e-commerce platform with Typesense-powered search and a Firebase backend; handled VPS setup, Docker deployment, and DevOps on Hetzner. Implemented full SEO integration, achieved top Lighthouse and PageSpeed scores, and reached 50k monthly unique visitors. [Website](https://paktec.pk)",
       },
       {
         title: "Bellona Social App",
