@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background: #f3f0e8;
+}
+
+body {
+  background: #f3f0e8;
+}
+
+::selection {
+  background: #d9907e;
+  color: #1d1d1a;
+}
+
+a,
+button {
+  transition-property: color, border-color;
+  transition-duration: 160ms;
+}
+
+:focus-visible {
+  outline: 2px solid #a6442e;
+  outline-offset: 4px;
+}

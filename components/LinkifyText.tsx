@@ -1,7 +1,30 @@
 import React from "react";
-import Link from "next/link";
 
-const LinkifyText = ({ textWithLink }: { textWithLink: string }) => {
+type LinkVariant = "sky" | "rose" | "amber" | "emerald" | "indigo";
+
+const linkStyles = {
+  sky: "text-sky-700 dark:text-sky-300",
+  rose: "text-rose-700 dark:text-rose-300",
+  amber: "text-amber-700 dark:text-amber-300",
+  emerald: "text-emerald-700 dark:text-emerald-300",
+  indigo: "text-indigo-700 dark:text-indigo-300",
+};
+
+const normalizeHref = (url: string) => {
+  if (/^(https?:|mailto:|tel:)/.test(url)) {
+    return url;
+  }
+
+  return `https://${url}`;
+};
+
+const LinkifyText = ({
+  textWithLink,
+  variant = "sky",
+}: {
+  textWithLink: string;
+  variant?: LinkVariant;
+}) => {
   const parts = textWithLink.split(/(\[[^\]]+\]\([^)]+\))/g);
 
   const renderedContent = parts.map((part, index) => {
@@ -11,12 +34,12 @@ const LinkifyText = ({ textWithLink }: { textWithLink: string }) => {
       const text = match?.[1];
       const url = match?.[2];
 
-      return (
-        <Link
-          className="underline hover:opacity-80 text-sky-500"
+      return text && url ? (
+        <a
+          className={`font-bold hover:underline ${linkStyles[variant]}`}
           target="_blank"
-          href={url ? (url.startsWith("http") ? url : `https://${url}`) : "/"}
-          passHref
+          href={normalizeHref(url)}
+          rel="noopener noreferrer"
           key={index}
         >
           <span className="inline-flex hover:underline">
@@ -34,7 +57,9 @@ const LinkifyText = ({ textWithLink }: { textWithLink: string }) => {
               ></path>
             </svg>
           </span>
-        </Link>
+        </a>
+      ) : (
+        <span key={index}>{part}</span>
       );
     } else {
       // This part does not contain a link
@@ -42,7 +67,7 @@ const LinkifyText = ({ textWithLink }: { textWithLink: string }) => {
     }
   });
 
-  return <p>{renderedContent}</p>;
+  return <>{renderedContent}</>;
 };
 
 export default LinkifyText;

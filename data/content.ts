@@ -1,52 +1,72 @@
 export const contentData = [
   {
+    title: "Technical Skills",
+    items: [
+      {
+        title: "Frontend",
+        subTitle: "React.js, React Native, Next.js, Expo, Redux, Tailwind, Webflow",
+        date: "",
+        description: "",
+      },
+      {
+        title: "Backend",
+        subTitle: "Nest.js, Node.js, Express.js, Firebase, AWS Lambda, GraphQL, Ethers.js",
+        date: "",
+        description: "",
+      },
+      {
+        title: "Databases & Search",
+        subTitle: "MongoDB, MySQL, Firebase, Algolia, Typesense",
+        date: "",
+        description: "",
+      },
+      {
+        title: "DevOps & Tools",
+        subTitle: "Git, GitLab CI/CD, Jira, Notion, Slack, Socket.io, Stripe, Twilio",
+        date: "",
+        description: "",
+      },
+      {
+        title: "Languages",
+        subTitle: "JavaScript (ES6+), TypeScript, Python",
+        date: "",
+        description: "",
+      },
+    ],
+  },
+  {
     title: "Work Experience",
     items: [
       {
         title:
-          "Full Stack Engineer — [Gamecheck](https://gamecheck.com), Gibraltar (Remote)",
+          "Contract Mobile Software Developer, [Olo Space](https://olo.app), Finland (Remote)",
+        subTitle: "React Native, Expo, Firebase, Webflow",
+        date: "Jan 2023 - Present",
+        description:
+          "Maintain and enhance the Olo Meditation App available on the Google Play Store and Apple App Store. Manage the Webflow website and use Firebase Cloud Functions, Crashlytics, and Analytics. Integrate third-party services including Heap, Sentry, Klaviyo, Supabase, ElevenLabs, and Dub; also self-host OpenClaw on a VPS. Built an AI-powered meditation assistant using speech-to-text, LLM processing, and text-to-speech. [Website](https://olo.app).",
+      },
+      {
+        title:
+          "Full Stack Engineer, [Gamecheck](https://gamecheck.com), Gibraltar (Remote)",
         subTitle: "React, Next.js v15, Nest.js, MongoDB",
-        date: "Oct 2024 – Sep 2025",
+        date: "Oct 2024 - Sep 2025",
         description:
-          "Built scalable web and mobile apps; designed REST APIs with responsive UIs. Achieved >85 GTmetrix on slow 3G/older hardware and near-perfect Lighthouse/PageSpeed scores. [Website](https://gamecheck.com), [iOS](https://apps.apple.com/gb/app/gamecheck/id6742909877), [Android](https://play.google.com/store/apps/details?id=com.gamecheck.app).",
+          "Led full-stack development across web, mobile, and extension platforms using React, Next.js v15, Nest.js, and MongoDB. Migrated the core web server from Node.js to Nest.js, improving structure and maintainability. Built and deployed React Native iOS and Android apps with OTA updates and store releases. [Website](https://gamecheck.com), [iOS](https://apps.apple.com/gb/app/gamecheck/id6742909877), [Android](https://play.google.com/store/apps/details?id=com.gamecheck.app).",
       },
       {
         title:
-          "Contract Mobile Software Developer — [Olo Space](https://olo.app), Finland (Remote)",
-        subTitle: "React Native, AWS, Firebase",
-        date: "Jan 2023 – Present",
-        description:
-          "Maintained and enhanced Olo Meditation app with custom animations, minimalist UI, analytics, and improved deployment workflows while optimizing runtime performance. Also helped and worked on the [website](https://olo.app) which is built in Webflow.",
-      },
-      {
-        title:
-          "Senior Software Developer I — Creative Chaos ([Foxtons UK](https://foxtons.co.uk) project), Karachi (Remote)",
+          "Senior Software Developer I, Creative Chaos ([Foxtons UK](https://foxtons.co.uk) project), Karachi (Remote)",
         subTitle: "React.js, Next.js, GitLab CI/CD",
-        date: "Jun 2022 – Oct 2024",
+        date: "Jun 2022 - Oct 2024",
         description:
-          "Delivered portals for landlords, tenants, and buyers using Next.js. Operated in a 30+ distributed team, scaling for high traffic with near-perfect SEO and performance. Was the top contributor on the project.",
+          "Delivered portals for landlords, tenants, and buyers using React.js and Next.js. Worked in a distributed team of 30+ engineers using GitLab CI/CD pipelines. Delivered near-perfect SEO and performance scores across Lighthouse and PageSpeed Insights.",
       },
       {
-        title: "React Native / React.js Developer — WEMTECH, Islamabad",
+        title: "React Native / React.js Developer, WEMTECH, Islamabad",
         subTitle: "Onsite",
-        date: "Jul 2020 – May 2022",
+        date: "Jul 2020 - May 2022",
         description:
-          "Built iOS/Android apps in React Native and web apps in React.js. Developed scalable UI components and optimized performance.",
-      },
-      {
-        title: "Android Intern — Nexsys Lab, FAST NUCES, Islamabad",
-        subTitle: "Internship",
-        date: "Jun 2019 – Jul 2019",
-        description:
-          "Android development internship focused on fundamentals and app development workflows.",
-      },
-      {
-        title:
-          "Contract React Native Developer — Tattoo Masters, Helsinki (Remote)",
-        subTitle: "React Native (Expo), Firebase, Typesense, MongoDB",
-        date: "Dec 2024 – Aug 2025",
-        description:
-          "Social app connecting users with tattoo artists. Implemented chat, geolocation filters, image compression, and background tasks.",
+          "Built iOS and Android apps with React Native and high-performance web apps with React.js and Next.js. Developed scalable UI components and optimised application performance.",
       },
     ],
   },
@@ -54,16 +74,14 @@ export const contentData = [
     title: "Education",
     items: [
       {
-        title: "BSc Computer Science",
-        subTitle: "FAST NUCES, Islamabad",
-        date: "2016 – 2020",
+        title: "FAST NUCES, Islamabad - BSc Computer Science",
+        date: "Aug 2016 - May 2020",
         description:
-          "Focus: Mobile & Web Development, Data Science, Blockchain. FYP: BillMan — OCR-powered bill manager using YOLO & Tesseract. [Degree verification link](www.nu.edu.pk/verification?id=16i-0257)",
+          "Focus: Mobile Development, Web Development, Data Science, Blockchain. Final Year Project: BillMan, an OCR-powered bill manager using YOLO & Tesseract. [Degree verification link](www.nu.edu.pk/verification?id=16i-0257)",
       },
       {
-        title: "A Levels & O Levels",
-        subTitle: "St. Mary's Academy, Rawalpindi",
-        date: "2009 – 2015",
+        title: "St. Mary's Academy, Rawalpindi - A Levels & O Levels",
+        date: "2009 - 2015",
         description: "Pre-university education.",
       },
     ],
@@ -72,60 +90,81 @@ export const contentData = [
     title: "Projects",
     items: [
       {
-        title: "Gamecheck Platform — Full Stack",
-        subTitle: "React, Next.js v15, Nest.js, MongoDB",
-        date: "2024 – Present",
+        title: "Adhan App",
+        subTitle: "SwiftUI",
+        date: "2026",
         description:
-          "Implemented full-stack features and achieved >85 GTmetrix on slow 3G/older iPhones with near-perfect Lighthouse/PageSpeed scores. [Website](https://gamecheck.com), [iOS](https://apps.apple.com/gb/app/gamecheck/id6742909877), [Android](https://play.google.com/store/apps/details?id=com.gamecheck.app).",
+          "Built a native iOS Adhan alarm app using SwiftUI with strong support from agentic coding tools. [App Store](https://apps.apple.com/us/app/adhan-alarm-app/id6761374447).",
+      },
+      {
+        title: "Gamecheck Platform",
+        subTitle: "React, Next.js v15, Nest.js, MongoDB",
+        date: "Oct 2024 - Sep 2025",
+        description:
+          "Led full-stack development across web, mobile, and extension platforms using React, Next.js v15, Nest.js, and MongoDB. [Website](https://gamecheck.com), [iOS](https://apps.apple.com/gb/app/gamecheck/id6742909877), [Android](https://play.google.com/store/apps/details?id=com.gamecheck.app).",
+      },
+      {
+        title: "Tattoo Masters App",
+        subTitle: "React Native (Expo), Firebase, Typesense, MongoDB",
+        date: "",
+        description:
+          "Freelance social app project with chat, geolocation filters, image compression, and background tasks.",
       },
       {
         title: "[Olo Wellbeing App](https://olo.app)",
-        subTitle: "React Native, AWS, Firebase",
-        date: "2023 – Present",
+        subTitle: "React Native, Expo, Firebase, Webflow",
+        date: "Jan 2023 - Present",
         description:
-          "Meditation app with custom animations, minimalist UX, and cloud analytics. Available on [iOS App Store](https://apple.co/3YPKc4q) & [Google Play](https://play.google.com/store/apps/details?id=com.olo.soma&pcampaignid=web_share).",
+          "Maintain and enhance the meditation app, manage its Webflow website, and integrate Firebase and third-party product services. Available on [iOS App Store](https://apple.co/3YPKc4q) & [Google Play](https://play.google.com/store/apps/details?id=com.olo.soma&pcampaignid=web_share).",
       },
       {
-        title: "Foxtons UK Portal — Web",
+        title: "Foxtons Portal - Web",
         subTitle: "Next.js, React.js, CI/CD",
-        date: "2022 – 2024",
+        date: "Jun 2022 - Oct 2024",
         description:
-          "Portals for landlords, tenants, and buyers for [foxtons.co.uk](https://foxtons.co.uk). Near-perfect SEO and performance metrics. Top contributor.",
+          "Next.js property portal for landlords, tenants, and buyers with CI/CD pipelines. Delivered near-perfect SEO and performance metrics for [foxtons.co.uk](https://foxtons.co.uk). Top contributor.",
       },
       {
-        title: "Paktec Electric — E-commerce",
-        subTitle: "Next.js, Firebase, Typesense",
+        title: "Paktec Electric",
+        subTitle: "React.js, Next.js, Typesense, Firebase, Docker, VPS",
         date: "2021",
         description:
-          "Full-stack e-commerce solution with a custom-built CMS and order tracking system. Powered by a Firebase backend and Typesense search. Currently serving an active customer base as a self-hosted, independent platform. [Live Store](https://paktec.pk)",
+          "Built a full-stack, revenue-generating e-commerce platform with Typesense-powered search and a Firebase backend; handled VPS setup, Docker deployment, and DevOps on Hetzner. Implemented full SEO integration, achieved top Lighthouse and PageSpeed scores, and reached 50k monthly unique visitors. [Live Store](https://paktec.pk)",
       },
       {
-        title: "Bellona Network — Social & Podcasts",
+        title: "Bellona Social App",
         subTitle: "React Native (Bare), OTA updates, Socket.io",
         date: "2021",
         description:
-          "Podcast + networking app for women in South Africa. On [Google Play](play.google.com/store/apps/details?id=com.bellona.app&hl=en&gl=US) & [App Store](apps.apple.com/in/app/bellona-network/id1574485776).",
+          "Podcast + networking app for women in South Africa, with payments and moderation. On [Google Play](play.google.com/store/apps/details?id=com.bellona.app&hl=en&gl=US) & [App Store](apps.apple.com/in/app/bellona-network/id1574485776).",
       },
       {
-        title: "JACY Token — Blockchain App",
+        title: "JACY Blockchain App",
         subTitle: "WalletConnect, Ethers, Uniswap SDK",
         date: "2021",
         description:
           "Token swaps (JACY<>WETH) with real-time rates via GraphQL + Apollo in React Native.",
       },
       {
-        title: "BillMan — FYP",
+        title: "Eclipse Salon",
+        subTitle: "React Native, Video Chat, Payments, Notifications",
+        date: "2020",
+        description:
+          "Marketplace app with video chat, payments, and notifications.",
+      },
+      {
+        title: "Loyal Homes",
+        subTitle: "React Native, Maps, Stripe",
+        date: "2020",
+        description:
+          "Companion real estate app with maps and Stripe integration.",
+      },
+      {
+        title: "BillMan FYP",
         subTitle: "YOLO, Tesseract, OCR",
         date: "2020",
         description:
           "OCR-powered bill manager leveraging YOLO for detection and Tesseract for text extraction.",
-      },
-      {
-        title: "Tattoo Masters — Social App",
-        subTitle: "React Native (Expo), Firebase, Typesense, MongoDB",
-        date: "2024 – 2025",
-        description:
-          "Chat, geolocation filters, image compression, background tasks for global artist-user matching.",
       },
     ],
   },
@@ -133,13 +172,13 @@ export const contentData = [
     title: "Certifications",
     items: [
       {
-        title: "HackerRank — Front End Developer (React)",
+        title: "HackerRank - Front End Developer (React)",
         date: "",
         description:
           "Certification of proficiency in React and front-end development.",
       },
       {
-        title: "Coursera — Advanced React Programming",
+        title: "Coursera - Advanced React Programming",
         date: "",
         description: "Advanced coursework in React and related tooling.",
       },

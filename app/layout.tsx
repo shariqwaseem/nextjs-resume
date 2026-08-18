@@ -8,25 +8,24 @@ import type { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(generalData.website),
   title: `${generalData.name} - ${generalData.jobTitle}`,
-  description: Array.isArray(generalData.about)
-    ? generalData.about.join(" ")
-    : generalData.about,
+  description:
+    "Full-stack software engineer building dependable web and mobile products with React, React Native, Next.js and Node.js.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "",
+    url: generalData.website,
     siteName: `${generalData.name} - ${generalData.jobTitle}`,
     title: `${generalData.name} - ${generalData.jobTitle}`,
-    description: Array.isArray(generalData.about)
-      ? generalData.about.join(" ")
-      : generalData.about,
+    description:
+      "Full-stack software engineer building dependable web and mobile products with React, React Native, Next.js and Node.js.",
     images: [
       {
-        url: "",
-        width: 1200,
-        height: 630,
-        alt: `${generalData.name} - ${generalData.jobTitle}`,
+        url: "/me.webp",
+        width: 1680,
+        height: 1892,
+        alt: `Portrait of ${generalData.name}`,
       },
     ],
   },
@@ -40,7 +39,7 @@ export default function RootLayout({
   return (
     <ServerThemeProvider attribute="class">
       <html lang="en">
-        <body className={`${inter.className} dark:bg-neutral-900`}>
+        <body className={inter.className}>
           <Providers>{children}</Providers>
         </body>
       </html>
