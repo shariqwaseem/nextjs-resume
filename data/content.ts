@@ -94,7 +94,7 @@ export const contentData = [
         subTitle: "SwiftUI",
         date: "2026",
         description:
-          "Built a native iOS Adhan alarm app using SwiftUI with strong support from agentic coding tools. [App Store](https://apps.apple.com/us/app/adhan-alarm-app/id6761374447).",
+          "Built a native iOS Adhan alarm app using SwiftUI with strong support from agentic coding tools. [Website](https://adhanapp.shariqwaseem.dev), [App Store](https://apps.apple.com/us/app/adhan-alarm-app/id6761374447).",
       },
       {
         title: "Gamecheck Platform",

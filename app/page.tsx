@@ -20,6 +20,7 @@ const featuredWork = [
       "Built a native iOS Adhan alarm app in SwiftUI with support from agentic coding tools.",
     technologies: "SwiftUI",
     links: [
+      { label: "Website", href: "https://adhanapp.shariqwaseem.dev" },
       {
         label: "App Store",
         href: "https://apps.apple.com/us/app/adhan-alarm-app/id6761374447",
